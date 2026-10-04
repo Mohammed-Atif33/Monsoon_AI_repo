@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# ML / Generated Models
+# =========================
+backend/models/*.joblib
+backend/models/*.pkl
+backend/models/*.pickle
+
+# Generated live weather snapshot
+backend/data/
+backend/app/data/
+
+# =========================
+# Frontend / Node
+# =========================
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Keep example environment files
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
